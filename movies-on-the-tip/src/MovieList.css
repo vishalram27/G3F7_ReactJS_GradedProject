@@ -1,11 +1,13 @@
 .movie-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-left: 10px;
 }
 
 .movie-card {
-    width: calc(20.33% - 50px);
+    width: calc(20.33% - 75px);
     border: 2px solid black;
     margin-bottom: 20px;
     position: relative;
