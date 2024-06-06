@@ -30,7 +30,7 @@ function App() {
             return;
         }
         setFavorites((prevFavorites) => [...prevFavorites, movie]);
-        setNotification("Added to favorites successfully");
+        setNotification("Added Movie to favorites ❤️");
         setTimeout(() => setNotification(null), 2000);
     };
 
@@ -38,7 +38,6 @@ function App() {
         setFavorites((prevFavorites) =>
             prevFavorites.filter((movie) => movie && movie.id !== movieId)
         );
-        setNotification("Removed from favorites successfully");
         setTimeout(() => setNotification(null), 2000);
     };
 

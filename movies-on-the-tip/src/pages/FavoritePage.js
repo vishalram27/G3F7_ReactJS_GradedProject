@@ -27,7 +27,7 @@ function FavoritesPage({ favorites, onRemove, onFavorite, searchTerm, onSearch }
     const handleRemove = (movieId) => {
         onRemove(movieId);
         if (!notification) {
-            setNotification("Removed from favorites 💔");
+            setNotification("Removed Movie from favorites 💔");
         }
     };
 
