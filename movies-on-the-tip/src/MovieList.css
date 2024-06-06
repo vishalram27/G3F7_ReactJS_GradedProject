@@ -1,0 +1,41 @@
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-info {
+    margin-top: 10px;
+}
+
+.movie-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.movie-action {
+    color: #007BFF;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.movie-action:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

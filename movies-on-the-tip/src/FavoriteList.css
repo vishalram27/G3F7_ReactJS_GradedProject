@@ -1,0 +1,50 @@
+.favorite-list {
+    padding: 20px;
+}
+
+.favorite-movie {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.favorite-poster {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.favorite-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification-text {
+    margin-right: 10px;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

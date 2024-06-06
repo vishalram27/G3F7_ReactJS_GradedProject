@@ -1,0 +1,22 @@
+{
+  "name": "g3f7_reactjs_gradedproject",
+  "version": "1.0.0",
+  "description": "react js graded assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalram27/G3F7_ReactJS_GradedProject.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalram27/G3F7_ReactJS_GradedProject/issues"
+  },
+  "homepage": "https://github.com/vishalram27/G3F7_ReactJS_GradedProject#readme"
+}
